@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:ital@1&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: maroon;
+    color: white;
+}
+
+header{
+    height: 2rem;
+    box-shadow: 0rem .2rem rgb(221, 217, 217);
+    padding: .4rem auto;
+    text-align: center;
+    position: absolute;
+    padding-bottom: 2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+h3{
+    font-family: 'Lato', sans-serif;;
+}
+#id{
+    text-align: center;
+    position: absolute;
+    left: .9rem;
+    right: .9rem;
+    top: 40%;
+}
+q{
+    font-size: larger;
+    font-family: 'Ubuntu', sans-serif;
+}
+button{
+    margin-top: 3rem;
+    padding: .5rem .9rem;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    opacity: .23;
+}
+footer{
+    height: 2rem;
+    border-top: .2rem solid rgb(221, 217, 217);
+    padding: .2rem auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: cursive;
+}
+@media only screen and (min-width: 768px)  {
+    #id{
+        left: 15%;
+        right: 15%;
+        top: 40%;
+    }
+}
